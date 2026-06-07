@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shelby Carpenter — Editor &amp; Writer</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --line: #e5e2dc;
+    --accent: #b5482e;
+    --bg: #fbfaf7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 72px 28px 96px;
+  }
+  header { margin-bottom: 56px; }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+  }
+  .bio {
+    font-size: 1.12rem;
+    color: #333;
+    margin: 0 0 22px;
+    max-width: 60ch;
+  }
+  .contact {
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .contact a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .contact a:hover { border-bottom-color: var(--accent); }
+  .contact .sep { margin: 0 10px; color: var(--line); }
+
+  section { margin-bottom: 48px; }
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    margin: 0 0 6px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 18px 0; border-bottom: 1px solid var(--line); }
+  li:last-child { border-bottom: none; }
+  .item-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--ink);
+    border-bottom: 1px solid var(--line);
+    transition: border-color 0.15s;
+  }
+  .item-title:hover { border-bottom-color: var(--accent); color: var(--accent); }
+  .meta {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 3px 0 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .blurb {
+    font-size: 0.98rem;
+    color: #444;
+    margin: 0;
+    max-width: 62ch;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  @media (max-width: 540px) {
+    .wrap { padding: 48px 22px 72px; }
+    h1 { font-size: 2.1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Shelby Carpenter</h1>
+    <p class="bio">
+      I’m a product and developer marketing leader with scrappy roots in journalism and
+      mountain guiding. Both fields taught me to go deep on the details, to be confident
+      operating under pressure, and to solve problems that at first glance seem unsolvable.
+      I use the technology I market and walk in the shoes of users every day. I’ve spent most
+      of the last decade working at the intersection of AI, databases, and developer
+      infrastructure, as an IC, a manager, and a manager of managers. I do my best work in
+      ambiguous spaces where the problem isn’t fully defined and someone needs to find the
+      through line.
+    </p>
+    <p class="contact">
+      <a href="mailto:carpenter.shelby@gmail.com">carpenter.shelby@gmail.com</a>
+      <span class="sep">/</span>
+      <a href="https://www.linkedin.com/in/shelbylcarpenter">LinkedIn</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Technology</h2>
+    <ul>
+      <li>
+        <a class="item-title" href="https://www.forbes.com/sites/shelbycarpenter/2016/10/19/vevo-play-beat-youtube-mtv-digital-age/">How Vevo Plans to Beat YouTube and MTV in the Digital Age</a>
+        <p class="meta">Forbes · Print edition · 2016</p>
+        <p class="blurb">Reporting on Vevo's strategy to compete with YouTube and MTV for music-video audiences.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.forbes.com/sites/shelbycarpenter/2016/08/24/two-wheeled-dreamers-at-faraday-want-you-to-see-electric-bikes-everywhere/">Two-Wheeled Dreamers at Faraday Want You to See Electric Bikes Everywhere</a>
+        <p class="meta">Forbes · Print edition · 2016</p>
+        <p class="blurb">Profile of Faraday Bicycles and its push to bring electric bikes into the mainstream.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/new-intelligent-developer-experiences-compass-atlas-charts-relational-migrator">New Intelligent Experiences for MongoDB</a>
+        <p class="meta">MongoDB · Co-author</p>
+        <p class="blurb">Launch announcement I initiated and drove — bundling multiple releases into a broader, AI-enabled developer story.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/mongodb-vs-code-extension-now-generally-available">MongoDB for VS Code Extension is Now GA</a>
+        <p class="meta">MongoDB · Product launch</p>
+        <p class="blurb">Product launch announcement for the general availability of the VS Code extension.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/introducing-local-development-experience-atlas-search-vector-search-atlas-cli">Introducing a Local Development Experience for Atlas Search and Vector Search with the Atlas CLI</a>
+        <p class="meta">MongoDB · Product launch</p>
+        <p class="blurb">Announcement of local development support for Atlas Search and Vector Search via the Atlas CLI.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.instaclustr.com/blog/understanding-and-configuring-elasticsearch-node-types/">Understanding and Configuring Elasticsearch Node Types</a>
+        <p class="meta">Instaclustr · Technical guide</p>
+        <p class="blurb">A hands-on technical explainer on Elasticsearch node roles and how to configure them.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://docs.google.com/document/d/1JBc7TgnZAfLKal8ZmytwYOSVjtuQmi8r/edit">MongoDB and Flask Tutorial: Building a UFO Spotter App</a>
+        <p class="meta">Google Doc · Tutorial</p>
+        <p class="blurb">A step-by-step tutorial for building a full-stack app with MongoDB and Flask — written after teaching myself Python to build it.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Science</h2>
+    <ul>
+      <li>
+        <a class="item-title" href="https://www.wired.com/2015/06/fighting-forest-fires-get-big-drones/">Fighting Forest Fires Before They Get Big — With Drones</a>
+        <p class="meta">WIRED · 2015</p>
+        <p class="blurb">Feature reporting on emerging drone technology applied to early wildfire detection and response.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.popsci.com/glider-with-stellar-view/">The Perlan 2 Glider</a>
+        <p class="meta">Popular Science</p>
+        <p class="blurb">Feature on the engineering behind a glider designed to reach the edge of space.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.outsideonline.com/outdoor-adventure/climbing/why-scientists-are-measuring-americas-tallest-peak-again/">Why Scientists Are Measuring America's Tallest Peak Again</a>
+        <p class="meta">Outside</p>
+        <p class="blurb">Reporting on the effort to re-survey the exact elevation of Denali.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://psmag.com/environment/the-coyote-whisperer/">The Coyote Whisperer</a>
+        <p class="meta">Pacific Standard</p>
+        <p class="blurb">A feature on coexistence between humans and urban coyotes.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Outdoors</h2>
+    <ul>
+      <li>
+        <a class="item-title" href="https://www.outsideonline.com/outdoor-adventure/hiking-and-backpacking/first-ever-winter-thru-hike-pct/">The First-Ever Winter Thru-Hike of the PCT</a>
+        <p class="meta">Outside</p>
+        <p class="blurb">Reporting on the first known winter thru-hike of the Pacific Crest Trail.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.outsideonline.com/health/training-performance/injured-fear-your-biggest-enemy/">When You're Injured, Fear Is Your Biggest Enemy</a>
+        <p class="meta">Outside</p>
+        <p class="blurb">On the psychology of recovering from injury and returning to sport.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.rei.com/blog/hike/gear-review-rei-co-op-flash-45-and-55-backpacking-packs">Gear Review: REI Co-op Flash 45 &amp; 55 Backpacks</a>
+        <p class="meta">REI Co-op Journal</p>
+        <p class="blurb">Field review of REI's Flash 45 and 55 backpacking packs and their customizable features.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.rei.com/blog/hike/review-the-osprey-eja-58">Gear Review: Osprey Eja 58 Backpack</a>
+        <p class="meta">REI Co-op Journal · 2018</p>
+        <p class="blurb">Review weighing comfort against weight for backpackers choosing a long-haul pack.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.rei.com/blog/climb/gear-review-womens-arcteryx-alpha-sv-jacket">Gear Review: Women's Arc'teryx Alpha SV Jacket</a>
+        <p class="meta">REI Co-op Journal · 2016</p>
+        <p class="blurb">A former Cascades mountaineering guide tests a hardshell in real alpine conditions.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.rei.com/blog/hike/gear-review-womens-lowa-renegade-gtx-mid-hiking-boots">Gear Review: Women's Lowa Renegade GTX Mid Hiking Boots</a>
+        <p class="meta">REI Co-op Journal · 2016</p>
+        <p class="blurb">Hands-on review of a versatile mid-height waterproof hiking boot.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Editing</h2>
+    <p class="blurb" style="margin-bottom:6px;">Posts written by members of my team that I edited for accuracy, narrative flow, and clarity (along with spelling and grammar), while preserving each author's voice. These also received a final line edit from the blog team.</p>
+    <ul>
+      <li>
+        <a class="item-title" href="https://docs.google.com/document/d/1qE11BME_vkqwxtnVcCWwHwvy6aWOXLsG/edit">Local-First and Reasoning-Enhanced RAG with DeepSeek and MongoDB</a>
+        <p class="meta">Google Doc · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/powering-long-term-memory-for-agents-langgraph">Powering Long-Term Memory for Agents with LangGraph</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/graphrag-mongodb-atlas-integrating-knowledge-graphs-with-llms">GraphRAG with MongoDB Atlas: Integrating Knowledge Graphs with LLMs</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/introducing-text-to-mql-langchain-query-mongodb-using-natural-language">Introducing Text-to-MQL with LangChain: Query MongoDB Using Natural Language</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/ai-powered-java-applications-with-mongodb-langchain4j">AI-Powered Java Applications with MongoDB and LangChain4j</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/new-data-management-experience-in-atlas-ui">A New Data Management Experience in the Atlas UI</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/mongoose-now-natively-supports-qe-csfle">Mongoose Now Natively Supports Queryable Encryption and CSFLE</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/innovation/how-tavily-uses-mongodb-to-enhance-agentic-workflows">How Tavily Uses MongoDB to Enhance Agentic Workflows</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/django-mongodb-backend-now-generally-available">Django MongoDB Backend Is Now Generally Available</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/company/blog/product-release-announcements/spring-data-mongodb-now-with-vector-search-queryable-encryption">Spring Data MongoDB Now With Vector Search and Queryable Encryption</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.mongodb.com/resources/solutions/use-cases/rdbms-mongodb-migration-guide">RDBMS to MongoDB Migration Guide</a>
+        <p class="meta">MongoDB · Edited</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Speaking &amp; Video</h2>
+    <ul>
+      <li>
+        <a class="item-title" href="https://www.youtube.com/watch?v=15u3QVnSHew">Speaker, Gitpod CDE Universe</a>
+        <p class="meta">Conference talk · Video</p>
+        <p class="blurb">Conference presentation on cloud development environments and the future of developer tooling.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.youtube.com/watch?v=6jqI5NGQU3M">A Quick Guide to MongoDB's Developer Tools</a>
+        <p class="meta">Video</p>
+        <p class="blurb">A short walkthrough of MongoDB's developer tooling.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.youtube.com/watch?v=E8TlI7w72Ss">Accelerate Your Development with MongoDB Developer Tools</a>
+        <p class="meta">MongoDB .local NYC · Conference talk</p>
+        <p class="blurb">A conference talk co-presented with a colleague on using MongoDB's developer tools to move faster.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Writing — LinkedIn</h2>
+    <ul>
+      <li>
+        <a class="item-title" href="https://www.linkedin.com/posts/shelbylcarpenter_ever-start-tinkering-just-to-explore-and-activity-7442657459879698432-G6bl">Building a Strava Clone with Openclaw, the Strava API, and the National Weather Service API</a>
+        <p class="meta">LinkedIn</p>
+        <p class="blurb">A writeup of my process building a Strava clone with Openclaw, the Strava API, and the National Weather Service API.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.linkedin.com/feed/update/urn:li:activity:7465821643987173377/">Building a Text-Based Adventure Game for Under $10 in API Credits</a>
+        <p class="meta">LinkedIn</p>
+        <p class="blurb">How I built a Dungeon Crawler Carl–inspired CLI adventure game in a few hours using Cursor, Together AI, and a fine-tuned Llama 3.1 8B model.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.linkedin.com/feed/update/urn:li:activity:7459811014360948736/">Building a MongoDB Sample-Data Agent Skill: Claude Code vs. Cursor</a>
+        <p class="meta">LinkedIn</p>
+        <p class="blurb">Building an Agent Skill that generates synthetic MongoDB test data from a repo — and a hands-on comparison of building it with Claude Code versus Cursor.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://www.linkedin.com/feed/update/urn:li:activity:7457941495107547136/">Building a Ski Quiver Tracker with MongoDB and Cursor</a>
+        <p class="meta">LinkedIn</p>
+        <p class="blurb">Building an app to log ski days and get wax and edge-tune reminders using the MongoDB Cursor plugin — with practical tips for building on MongoDB + Cursor.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Engineering &amp; Side Projects</h2>
+    <ul>
+      <li>
+        <a class="item-title" href="https://github.com/getsendy/Intelligent-Running-Coach">Intelligent Running Coach</a>
+        <p class="meta">GitHub</p>
+        <p class="blurb">A Strava-aware LLM coaching agent that generates personalized running guidance.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://github.com/getsendy/dungeon-runner">Dungeon Runner</a>
+        <p class="meta">GitHub</p>
+        <p class="blurb">A text adventure built on Together AI and Llama 3.1.</p>
+      </li>
+      <li>
+        <a class="item-title" href="https://github.com/getsendy/Daily-AI-Digest-Cursor-Version-">Daily AI Digest</a>
+        <p class="meta">GitHub</p>
+        <p class="blurb">An automated daily AI news digest, built with Cursor.</p>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2026 Shelby Carpenter
+  </footer>
+
+</div>
+</body>
+</html>
